@@ -1,0 +1,11 @@
+<web-app>
+<servlet>
+ <servlet-name>writing</servlet-name>
+ <servlet-class>PhonixServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>writing</servlet-name>
+  <url-pattern>/phonixServlet</url-pattern>
+</servlet-mapping>
+</web-app>
